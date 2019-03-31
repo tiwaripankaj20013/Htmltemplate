@@ -1,0 +1,25 @@
+footer{
+    background:$gold  ;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    .quick-links{
+        margin-top: 3rem;
+        h5{font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 800;}
+            a{color: $darkblack;}
+    }
+  .copy-right{
+      background: $darkblack;
+      color: $white;
+  }
+  .btn-outline-yelow{
+      background: $white;
+      color: $darkblack;
+      font-weight: 600;
+      &:hover{
+          background: $white;
+          color: $darkblack;
+      }
+  }
+}

@@ -1,0 +1,124 @@
+.heading2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color:$darkblack;
+    margin-top: 2rem;
+    padding: 2rem 0rem;
+    position: relative;
+    +p{
+        font-size: 1rem;
+        line-height: 1rem; font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+    }
+    &::before{
+        content: ' ';
+        width: 6.25rem;
+        top: 0;
+        left: 0%;
+        position: absolute;
+        border-top:0.35rem solid $gold;
+    }
+    &.text-center{
+        &::before{
+            left: 50%;
+            transform: translate(-50%,0%);
+        }
+        &.border-yellow{
+            &::before{
+                border-top:0.35rem solid $yellow;
+            }
+        }
+    }
+    
+}
+.divyam{
+    background: url('/./app/assets/images/home-page-icon-images/curve-1.png') no-repeat ;
+    background-position: left;
+    background-position-y: 100%;
+}
+.partner-img{
+    padding: 2rem;
+    outline-color: #0000000f;
+    margin: 1rem 0.20rem;
+    outline-style: solid;
+    box-shadow: 2px 2px 2px #3126261c;
+}
+.gallery{
+    outline: 2px;
+    outline-color: #cccccc54;
+    outline-style: solid;
+    background: #fff;
+    margin: 2rem;
+    text-align: center;
+    img{
+       &.img-fluid{ padding: 5rem;
+        margin: auto;}
+    }
+    &+.disc{text-align: center; margin: 2rem;
+    h4{font-weight: 700; color: $darkblack; font-size: 1.5rem;
+    +p{font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+        color: $darkblack;    
+    }
+}
+    }
+}
+.desc-profile{
+    top: 50%;
+    transform: translate(0%,-50%);
+    position: absolute;
+}
+.profile{float: right;}
+
+/*team*/
+.team-list{
+    text-align: center;
+.team-profile{
+    background:$lightyellow;
+    padding: 8rem 2rem;
+ 
+}
+.prof-details{
+    margin: 2rem;
+    
+    h5{color: $darkblack;font-weight: 500;}
+    p{
+        text-transform: uppercase;
+        color: $yellow;
+    }
+}
+}
+.treatment{
+    background: url('/./app/assets/images/home-page-icon-images/curve.png') no-repeat ;
+   background-position: right;
+   background-position-y: 100%;
+}
+.treatment-list{
+    background: $gold;
+    text-align: center;
+    border-radius: 50%;
+    max-width: 12rem;
+    padding: 2rem;
+    height: 12rem;
+    margin: auto;
+    position: relative;
+    img{
+        &.img-fluid{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+   
+}
+.single-slider{
+    h5{    margin-top: 1rem;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: bold;}
+}

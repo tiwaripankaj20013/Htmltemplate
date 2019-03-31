@@ -1,0 +1,23 @@
+footer{
+   // background-color: $gold;
+    background:$gold url('/./app/assets/images/home-page-icon-images/footer.png') ;
+    background-repeat: no-repeat;
+    background-position: right;
+ z-index: 999;
+position: relative;
+//   ::before{
+// //    z-index: 1;
+//   background-color: $gold;
+//   background-position: right;
+//    position: absolute;
+//     right: 0;
+//   opacity: 0.25;    content: '';
+//     height: 100%;
+//    width: 25%;
+//   }
+  
+  .copy-right{
+      background: $darkblack;
+      color: $white;
+  }
+}

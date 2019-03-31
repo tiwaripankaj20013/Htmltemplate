@@ -1,0 +1,76 @@
+header{padding: 2rem 0rem;}
+.logo{
+    top: -5px;
+    width: 250px;
+    left: -27px;
+    position: relative;
+}
+.btn-outline-yelow{
+    position: relative;
+    top: 1.15rem;
+    width: 17.25rem;
+    right: -0.85rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid $gold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    color: $gold;
+    background: transparent;
+    &:hover,&:focus{
+        background: $gold;
+        color: $white;
+    }
+}
+.navbar-gold,.navbar-dark{
+    background: $gold;
+    .nav-item{padding: 0rem 1rem;
+        a.nav-link{color: $white;}
+    }
+    .navbar-collapse{
+        color: $white;
+        max-width: 1140px;
+        margin: 0px auto;
+    }
+    .dropdown-item.active, .dropdown-item:active {
+        color: $white;
+        text-decoration: none;
+        background-color: $gold;
+    }
+}
+.btn-banner{
+    background: transparent;
+    
+    font-size: 1.5rem;
+    padding: 0.65rem 1.75rem;
+    font-weight: 400;
+    border:2px solid $white;
+    border-radius: 2rem;
+    color: $white;
+}
+.banner{
+    h1{
+        font-size: 2.75rem;
+        color: $white;
+        letter-spacing: 1px;
+        line-height: 5rem;
+        text-transform: capitalize;
+        position: relative;
+        padding-bottom: 0.75rem;
+        &::before{
+            content: ' ';
+            width: 6.25rem;
+            top: 0;
+            left: 0%;
+            position: absolute;
+            border-top:0.35rem solid $white;
+        }
+    }
+    .carousel-caption{
+        top: 28%;
+        left: 8.75%;
+        max-width: 40.65rem;
+    }
+
+}
